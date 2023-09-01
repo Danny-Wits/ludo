@@ -12,4 +12,5 @@ span{
     display: inline-block;
     border: 2px solid;
     background-color: blue;
+    height: 6vh;
 }
