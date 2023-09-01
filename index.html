@@ -15,7 +15,16 @@
   </head>
   <body>
     <main>
+      <button id="dice" onclick="role">ROLE</button>
       <img src="pngwing.com (9).png" alt="hat" />
     </main>
+
+    <script>
+      function role() {
+        document.getElementById("dice").innerHTML = (
+          Math.random() % 6
+        ).toString();
+      }
+    </script>
   </body>
 </html>
