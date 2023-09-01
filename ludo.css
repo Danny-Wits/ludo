@@ -1,5 +1,5 @@
 span{
-    display: block;
+    display: inline-block;
     border: 2px solid;
     background-color: blue;
     width: 100px;
