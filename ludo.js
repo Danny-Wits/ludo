@@ -1,4 +1,3 @@
-console.log("LOADED");
 const board= document.getElementById("map");
 for (let i = 0; i < 15; i++) {
     for (let j = 0; j < 15; j++) {
@@ -7,5 +6,4 @@ for (let i = 0; i < 15; i++) {
         span.id= (i+1).toString()+ "|"+ (j+1).toString();
         board.append(span);
     }
-    
 }
